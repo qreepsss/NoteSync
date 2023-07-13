@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title_wrap">
+            <h1 class="login_title">
+                Sign up
+            </h1>
+        </div>
+
+        <form action="action/check.php" method="post" >
+
+            <label>Имя</label>
+            <input type="text" placeholder="Введите имя" name="name">
+
+            <label>Почта</label>
+            <input type="text" placeholder="Введите email" name="email">
+
+            <label>Пароль</label>
+            <input type="password" placeholder="Введите пароль" name="password">
+
+            <div class="btn_wrap">
+                <button type="submit">Зарегистрироваться</button>
+            </div>
+            
+        </form>
+        <p>У вас уже есть аккаунт ? - <a href="index.php">войти</a></p>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI';
+}
+.wrapper {
+    height: 60vh;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 300px;
+
+}
+.login_title {
+    font-size: 45px;
+    color: rgb(94, 150, 235);
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: gray;
+}
+input {
+    margin-bottom: 15px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding-bottom: 10px;
+}
+input::placeholder {
+    padding: 10px 10px;
+    color: rgb(71, 71, 71);
+}
+.btn_wrap {
+    display: flex;
+}
+button {
+    padding: 10px 50px;
+    background-color: rgb(94, 150, 235);
+    border: none;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 15px;
+    color: gray;
+}
+a {
+    text-decoration: none;
+    color:rgb(94, 150, 235) ;
+}
+
